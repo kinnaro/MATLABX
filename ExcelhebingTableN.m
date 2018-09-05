@@ -1,0 +1,45 @@
+a1 = readtable('S:\二次实验\用到的N\带RR间期\100.csv');
+a2 = readtable('S:\二次实验\用到的N\带RR间期\101.csv');
+% a3 = readtable('S:\二次实验\用到的N\带RR间期\102.csv');
+a4 = readtable('S:\二次实验\用到的N\带RR间期\103.csv');
+% a5 = readtable('S:\二次实验\用到的N\带RR间期\104.csv');
+a6 = readtable('S:\二次实验\用到的N\带RR间期\105.csv');
+a7 = readtable('S:\二次实验\用到的N\带RR间期\106.csv');
+a8 = readtable('S:\二次实验\用到的N\带RR间期\112.csv');
+a9 = readtable('S:\二次实验\用到的N\带RR间期\113.csv');
+a10 = readtable('S:\二次实验\用到的N\带RR间期\114.csv');
+a11 = readtable('S:\二次实验\用到的N\带RR间期\115.csv');
+a12 = readtable('S:\二次实验\用到的N\带RR间期\116.csv');
+a13 = readtable('S:\二次实验\用到的N\带RR间期\117.csv');
+a14 = readtable('S:\二次实验\用到的N\带RR间期\119.csv');
+a15 = readtable('S:\二次实验\用到的N\带RR间期\121.csv');
+a16 = readtable('S:\二次实验\用到的N\带RR间期\122.csv');
+a17 = readtable('S:\二次实验\用到的N\带RR间期\123.csv');
+a18 = readtable('S:\二次实验\用到的N\带RR间期\200.csv');
+a19 = readtable('S:\二次实验\用到的N\带RR间期\201.csv');
+a20 = readtable('S:\二次实验\用到的N\带RR间期\202.csv');
+% a21 = readtable('S:\二次实验\用到的N\带RR间期\203.csv');
+a22 = readtable('S:\二次实验\用到的N\带RR间期\205.csv');
+% a23 = readtable('S:\二次实验\用到的N\带RR间期\208.csv');
+a24 = readtable('S:\二次实验\用到的N\带RR间期\209.csv');
+a25 = readtable('S:\二次实验\用到的N\带RR间期\210.csv');
+% a26 = readtable('S:\二次实验\用到的N\带RR间期\212.csv');
+a27 = readtable('S:\二次实验\用到的N\带RR间期\213.csv');
+% a28 = readtable('S:\二次实验\用到的N\带RR间期\215.csv');
+% a29 = readtable('S:\二次实验\用到的N\带RR间期\217.csv');
+% a30 = readtable('S:\二次实验\用到的N\带RR间期\219.csv');
+a31 = readtable('S:\二次实验\用到的N\带RR间期\220.csv');
+a32 = readtable('S:\二次实验\用到的N\带RR间期\221.csv');
+a33 = readtable('S:\二次实验\用到的N\带RR间期\222.csv');
+a34 = readtable('S:\二次实验\用到的N\带RR间期\223.csv');
+% a35 = readtable('S:\二次实验\用到的N\带RR间期\228.csv');
+% a36 = readtable('S:\二次实验\用到的N\带RR间期\230.csv');
+% a37 = readtable('S:\二次实验\用到的N\带RR间期\231.csv');
+a38 = readtable('S:\二次实验\用到的N\带RR间期\233.csv');
+a39 = readtable('S:\二次实验\用到的N\带RR间期\234.csv');
+
+% A = [a1;a2;a3;a4;a5;a6;a7;a8;a9;a10;a11;a12;a13;a14;a15;a16;a17;a18;a19;a20;a21;a22;a23;a24;a25;a26;a27;a28;a29;a30;a31;a32;a33;a34;a35;a36;a37;a38;a39'];
+A = [a1;a2;a4;a6;a7;a8;a9;a10;a11;a12;a13;a14;a15;a16;a17;a18;a19;a20;a22;a24;a25;a27;a31;a32;a33;a34;a38;a39];
+writetable(A,'S:\二次实验\用到的N\带RR间期\二次实验N-有RR.csv','Delimiter',',','QuoteStrings',true);
+
+

@@ -1,0 +1,45 @@
+a1 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\100.csv');
+a2 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\101.csv');
+% a3 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\102.csv');
+a4 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\103.csv');
+% a5 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\104.csv');
+% a6 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\105.csv');
+% a7 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\106.csv');
+a8 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\112.csv');
+% a9 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\113.csv');
+a10 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\114.csv');
+% a11 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\115.csv');
+a12 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\116.csv');
+a13 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\117.csv');
+a14 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\118.csv');
+a15 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\121.csv');
+% a16 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\122.csv');
+a17 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\124.csv');
+a18 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\200.csv');
+a19 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\201.csv');
+a20 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\202.csv');
+% a21 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\203.csv');
+a22 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\205.csv');
+a23 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\207.csv');
+a24 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\209.csv');
+% a25 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\210.csv');
+% a26 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\212.csv');
+a27 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\213.csv');
+a28 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\215.csv');
+% a29 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\217.csv');
+a30 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\219.csv');
+a31 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\220.csv');
+% a32 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\221.csv');
+a33 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\222.csv');
+a34 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\223.csv');
+a35 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\228.csv');
+% a36 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\230.csv');
+a37 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\231.csv');
+a38 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\232.csv');
+a39 = readtable('S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\233.csv');
+
+% A = [a1;a2;a3;a4;a5;a6;a7;a8;a9;a10;a11;a12;a13;a14;a15;a16;a17;a18;a19;a20;a21;a22;a23;a24;a25;a26;a27;a28;a29;a30;a31;a32;a33;a34;a35;a36;a37;a38;a39'];
+A = [a1;a2;a4;a8;a10;a12;a13;a14;a15;a17;a18;a19;a20;a22;a23;a24;a27;a28;a30;a31;a33;a34;a35;a37;a38;a39];
+writetable(A,'S:\MIT相关文件\MIT数据采样点\MIT_SingleWaveA\三次实验A-有RR.csv','Delimiter',',','QuoteStrings',true);
+
+
